@@ -59,6 +59,7 @@ body {
   font-family: "Space Mono", "Courier New", monospace;
   font-weight: 700;
   background-color: #fff;
+  overflow-x: hidden;
 }
 
 img {
@@ -262,18 +263,18 @@ a {
   height: 96px;
   border-radius: 50%;
   background-color: var(--main-btn-color);
-  background-image: url(../images/icons/phone-icon.svg);
+  background-image: url(../images/icons/scoot-user-icon.svg);
   background-repeat: no-repeat;
   background-position: center center;
 }
 
 .cards:nth-child(2) p::before {
-  background-image: url(../images/icons/scoot-icon.svg);
+  background-image: url(../images/icons/phone-icon.svg);
   background-repeat: no-repeat;
   background-position: center center;
 }
 .cards:nth-child(3) p::before {
-  background-image: url(../images/icons/scoot-user-icon.svg);
+  background-image: url(../images/icons/scoot-icon.svg);
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -281,7 +282,7 @@ a {
 .line {
   position: absolute;
   top: 40px;
-  left: -145px;
+  left: -213px;
   overflow: hidden;
   margin: 0;
   z-index: 0;
@@ -469,52 +470,6 @@ a {
 /************** MAIN STYLES END **************/
 
 /********************** footer section ***********/
-
-.site_footer {
-  background-color: var(--footer-bg-color);
-  padding-top: 35px;
-  padding-bottom: 32px;
-}
-.footer_wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.footer_list {
-  display: flex;
-
-  padding-left: 0;
-  list-style: none;
-  gap: 32px;
-}
-.footer_links {
-  display: flex;
-  align-items: center;
-  width: 417px;
-  justify-content: space-between;
-}
-.list_item_link {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 15px;
-  line-height: 25px;
-  color: #939caa;
-}
-
-.list_item_link:active {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 15px;
-  line-height: 25px;
-  color: #fcb72b;
-}
-
-.social_links {
-  display: flex;
-  justify-content: space-between;
-  width: 120px;
-}
 
 
 
