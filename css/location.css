@@ -1,0 +1,53 @@
+.location {
+  background-image: url("../images/location_back.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 159.55px;
+}
+
+.map{
+    margin-bottom: 120px;
+}
+
+.map_img {
+  margin-bottom: 120px;
+}
+.your_country {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.your_country_title {
+  width: 351px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14286px;
+  color: #495567;
+}
+
+.your_country_desc {
+  width: 445px;
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #939caa;
+}
+
+.country_btn {
+  width: 180px;
+  height: 53px;
+  color: #fff;
+  background: var(--main-btn-color);
+  border: none;
+}
+
+.country_btn:active{
+    background-color: #fff;
+    color: var(--main-btn-color);
+    border: 1px solid var(--main-btn-color);
+}
