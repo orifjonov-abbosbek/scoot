@@ -298,13 +298,14 @@ a {
 .usage {
   background-image: url(../images/icons/near_img_back.svg);
   background-repeat: no-repeat;
-  background-position: calc(50% + 750px);
+  background-position: calc(50% + 850px);
   margin-bottom: 168px;
 }
 
 .usage_wrapper {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   position: relative;
   gap: 83px;
 }
@@ -355,7 +356,7 @@ a {
 }
 .arrow {
   position: absolute;
-  right: -70px;
+  right: -175px;
   bottom: -10px;
 }
 
