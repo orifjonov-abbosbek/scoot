@@ -281,14 +281,16 @@ a {
 
 .line {
   position: absolute;
-  top: 40px;
+  width: 974px;
+  height: 1px;
+  top: 50px;
   left: -213px;
   overflow: hidden;
   margin: 0;
   z-index: 0;
   width: 974px;
   height: 1px;
-  border: 15px solid #e5ecf4;
+  border: 5px solid #e5ecf4;
 }
 
 /********************** USAGE SECTION   ********************/
@@ -472,4 +474,48 @@ a {
 /********************** footer section ***********/
 
 
+.site_footer {
+  background-color: var(--footer-bg-color);
+  padding-top: 35px;
+  padding-bottom: 32px;
+}
+.footer_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
+.footer_list {
+  display: flex;
+
+  padding-left: 0;
+  list-style: none;
+  gap: 32px;
+}
+.footer_links {
+  display: flex;
+  align-items: center;
+  width: 417px;
+  justify-content: space-between;
+}
+.list_item_link {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  color: #939caa;
+}
+
+.list_item_link:active {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  color: #fcb72b;
+}
+
+.social_links {
+  display: flex;
+  justify-content: space-between;
+  width: 120px;
+}
